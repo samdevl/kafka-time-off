@@ -1,0 +1,249 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/gonzalez_l/Projects/kafka-lms/TimeOff.Manager/TimeOff.Manager.csproj": {}
+  },
+  "projects": {
+    "/home/gonzalez_l/Projects/kafka-lms/TimeOff.Core/TimeOff.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gonzalez_l/Projects/kafka-lms/TimeOff.Core/TimeOff.Core.csproj",
+        "projectName": "TimeOff.Core",
+        "projectPath": "/home/gonzalez_l/Projects/kafka-lms/TimeOff.Core/TimeOff.Core.csproj",
+        "packagesPath": "/home/gonzalez_l/.nuget/packages/",
+        "outputPath": "/home/gonzalez_l/Projects/kafka-lms/TimeOff.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gonzalez_l/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Azure.Data.SchemaRegistry": {
+              "target": "Package",
+              "version": "[1.0.0-beta.2, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.6.3, )"
+            },
+            "Confluent.SchemaRegistry": {
+              "target": "Package",
+              "version": "[1.6.3, )"
+            },
+            "Microsoft.Azure.Data.SchemaRegistry.ApacheAvro": {
+              "target": "Package",
+              "version": "[1.0.0-beta.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.116/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/gonzalez_l/Projects/kafka-lms/TimeOff.Manager/TimeOff.Manager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gonzalez_l/Projects/kafka-lms/TimeOff.Manager/TimeOff.Manager.csproj",
+        "projectName": "TimeOff.Manager",
+        "projectPath": "/home/gonzalez_l/Projects/kafka-lms/TimeOff.Manager/TimeOff.Manager.csproj",
+        "packagesPath": "/home/gonzalez_l/.nuget/packages/",
+        "outputPath": "/home/gonzalez_l/Projects/kafka-lms/TimeOff.Manager/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gonzalez_l/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/gonzalez_l/Projects/kafka-lms/TimeOff.Core/TimeOff.Core.csproj": {
+                "projectPath": "/home/gonzalez_l/Projects/kafka-lms/TimeOff.Core/TimeOff.Core.csproj"
+              },
+              "/home/gonzalez_l/Projects/kafka-lms/TimeOff.Models/TimeOff.Models.csproj": {
+                "projectPath": "/home/gonzalez_l/Projects/kafka-lms/TimeOff.Models/TimeOff.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Confluent.SchemaRegistry": {
+              "target": "Package",
+              "version": "[1.6.3, )"
+            },
+            "Confluent.SchemaRegistry.Serdes.Avro": {
+              "target": "Package",
+              "version": "[1.6.3, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "ReadLine": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.116/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/gonzalez_l/Projects/kafka-lms/TimeOff.Models/TimeOff.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gonzalez_l/Projects/kafka-lms/TimeOff.Models/TimeOff.Models.csproj",
+        "projectName": "TimeOff.Models",
+        "projectPath": "/home/gonzalez_l/Projects/kafka-lms/TimeOff.Models/TimeOff.Models.csproj",
+        "packagesPath": "/home/gonzalez_l/.nuget/packages/",
+        "outputPath": "/home/gonzalez_l/Projects/kafka-lms/TimeOff.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gonzalez_l/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Confluent.SchemaRegistry.Serdes.Avro": {
+              "target": "Package",
+              "version": "[1.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.116/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

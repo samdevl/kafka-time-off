@@ -1,0 +1,12 @@
+/home/gonzalez_l/Projects/kafka-lms/TimeOff.Models/bin/Debug/net5.0/TimeOff.Models.deps.json
+/home/gonzalez_l/Projects/kafka-lms/TimeOff.Models/bin/Debug/net5.0/TimeOff.Models.dll
+/home/gonzalez_l/Projects/kafka-lms/TimeOff.Models/bin/Debug/net5.0/ref/TimeOff.Models.dll
+/home/gonzalez_l/Projects/kafka-lms/TimeOff.Models/bin/Debug/net5.0/TimeOff.Models.pdb
+/home/gonzalez_l/Projects/kafka-lms/TimeOff.Models/obj/Debug/net5.0/TimeOff.Models.csproj.AssemblyReference.cache
+/home/gonzalez_l/Projects/kafka-lms/TimeOff.Models/obj/Debug/net5.0/TimeOff.Models.GeneratedMSBuildEditorConfig.editorconfig
+/home/gonzalez_l/Projects/kafka-lms/TimeOff.Models/obj/Debug/net5.0/TimeOff.Models.AssemblyInfoInputs.cache
+/home/gonzalez_l/Projects/kafka-lms/TimeOff.Models/obj/Debug/net5.0/TimeOff.Models.AssemblyInfo.cs
+/home/gonzalez_l/Projects/kafka-lms/TimeOff.Models/obj/Debug/net5.0/TimeOff.Models.csproj.CoreCompileInputs.cache
+/home/gonzalez_l/Projects/kafka-lms/TimeOff.Models/obj/Debug/net5.0/TimeOff.Models.dll
+/home/gonzalez_l/Projects/kafka-lms/TimeOff.Models/obj/Debug/net5.0/ref/TimeOff.Models.dll
+/home/gonzalez_l/Projects/kafka-lms/TimeOff.Models/obj/Debug/net5.0/TimeOff.Models.pdb
